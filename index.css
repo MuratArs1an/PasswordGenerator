@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(20, 31, 51);
+    color: white;
+}
+h2{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+#green-el{
+    color: rgb(55, 182, 133);
+}
+button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgb(55, 182, 133);
+    color:white;
+    font-weight: bold;
+    border-radius: 7px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    border: 2px;
+    border-style:none;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    color: rgb(55, 182, 133);
+    background-color:rgb(34, 51, 83);
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input{
+    width:3%;
+}
